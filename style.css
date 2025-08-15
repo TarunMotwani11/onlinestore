@@ -1616,3 +1616,484 @@ body {
 .muted { color:#666; }
 .mrp { color:#888; text-decoration: line-through; margin-left:.5rem; }
 
+/* Update navigation button styles */
+.nav-btn {
+  background-color: var(--color-accent-light); /* Light Peachy Pink */
+  color: var(--color-text-dark); /* White text */
+  border: none;
+  padding: var(--space-8) var(--space-12);
+  border-radius: var(--radius-base);
+  cursor: pointer;
+  font-weight: var(--font-weight-medium);
+  transition: all var(--duration-fast) var(--ease-standard);
+}
+
+.nav-btn:hover,
+.nav-btn.active {
+  background-color: var(--color-primary-dark); /* Desert Coral */
+  color: var(--color-text-dark); /* White text */
+}
+
+/* Update navigation styles */
+.nav {
+  background-color: var(--color-background-dark); /* Match navigation background */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px 0 0 12px;
+  padding: 0.75rem;
+  display: none;
+  max-height: 75vh;
+  overflow: auto;
+}
+
+.nav.nav--open {
+  display: block;
+}
+
+/* Update hamburger menu styles */
+.menu-toggle {
+  display: inline-block;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--color-text-dark); /* White color */
+  margin-left: 0.5rem;
+  margin-top: 0.5rem; /* Adjust margin to position below the name */
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  gap: var(--space-16);
+}
+
+/* Update navigation button styles */
+.nav-btn {
+  background-color: var(--color-background-dark); /* Match navigation background */
+  color: var(--color-text-dark); /* White text */
+  border: none;
+  padding: var(--space-8) var(--space-12);
+  border-radius: var(--radius-base);
+  cursor: pointer;
+  font-weight: var(--font-weight-medium);
+  transition: all var(--duration-fast) var(--ease-standard);
+  margin: 0.25rem; /* Add margin for spacing */
+}
+
+.nav-btn:hover,
+.nav-btn.active {
+  background-color: var(--color-primary-dark); /* Desert Coral */
+  color: var(--color-text-dark); /* White text */
+}
+
+/* Update navigation styles */
+.nav {
+  background-color: var(--color-background-dark); /* Match navigation background */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px 0 0 12px;
+  padding: 0.75rem;
+  display: none;
+  max-height: 75vh;
+  overflow: auto;
+  text-align: center; /* Center align buttons */
+}
+
+.nav.nav--open {
+  display: block;
+}
+
+/* Update hamburger menu styles */
+.menu-toggle {
+  display: inline-block;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--color-text-dark); /* White color */
+  margin-left: 0.5rem;
+  margin-top: 0.5rem; /* Adjust margin to position below the name */
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  gap: var(--space-16);
+}
+
+/* Update hamburger menu styles */
+.menu-toggle {
+  display: inline-block;
+  background: transparent;
+  border: none;
+  font-size: 2rem; /* Increase size */
+  color: var(--color-text-dark); /* White color */
+  margin-top: 1rem; /* Move below the website name */
+}
+
+/* Adjust header content to stack elements vertically */
+.header-content {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  gap: var(--space-16);
+}
+
+/* Increase base button sizes */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-16) var(--space-24); /* Increased from 8px 16px */
+  border-radius: var(--radius-base);
+  font-size: var(--font-size-lg); /* Increased from base to lg */
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-standard);
+  border: none;
+  text-decoration: none;
+  position: relative;
+  min-height: 48px; /* Ensure minimum touch target */
+}
+
+/* Update small button variant to be larger */
+.btn--sm {
+  padding: var(--space-12) var(--space-20); /* Increased from 4px 12px */
+  font-size: var(--font-size-md); /* Increased from sm to md */
+  border-radius: var(--radius-sm);
+  min-height: 44px; /* Ensure minimum touch target */
+}
+
+/* Update large button variant to be even larger */
+.btn--lg {
+  padding: var(--space-16) var(--space-32); /* Increased from 10px 20px */
+  font-size: var(--font-size-xl); /* Increased from lg to xl */
+  border-radius: var(--radius-md);
+  min-height: 56px; /* Larger touch target */
+}
+
+/* Increase category filter button sizes */
+.filter-btn {
+  background: var(--color-accent-light);
+  border: 1px solid var(--color-primary-dark);
+  padding: var(--space-12) var(--space-24); /* Increased from 8px 16px */
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  color: var(--color-text-light);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-lg) !important; /* Increased size */
+  transition: all var(--duration-fast) var(--ease-standard);
+  margin: var(--space-8) var(--space-6); /* Increased margin for better spacing */
+  min-height: 48px; /* Ensure minimum touch target */
+}
+
+/* Increase navigation button sizes */
+.nav-btn {
+  background-color: var(--color-background-dark);
+  color: var(--color-text-dark);
+  border: none;
+  padding: var(--space-16) var(--space-20); /* Increased from 8px 12px */
+  border-radius: var(--radius-base);
+  cursor: pointer;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-lg) !important; /* Increased size */
+  transition: all var(--duration-fast) var(--ease-standard);
+  margin: var(--space-6); /* Increased margin */
+  min-height: 48px; /* Ensure minimum touch target */
+}
+
+/* Increase WhatsApp button size */
+.whatsapp-btn {
+  background: #25D366;
+  color: white;
+  border: none;
+  padding: var(--space-16) var(--space-24); /* Increased from 10px 16px */
+  border-radius: var(--radius-base);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-lg); /* Increased size */
+  cursor: pointer;
+  width: 100%;
+  transition: background-color var(--duration-fast) var(--ease-standard);
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  min-height: 48px; /* Ensure minimum touch target */
+}
+
+/* Increase product card action button sizes */
+.product-card .actions .btn {
+  padding: var(--space-12) var(--space-20); /* Increased padding */
+  font-size: var(--font-size-md); /* Increased font size */
+  min-height: 44px; /* Ensure good touch target */
+  flex: 1; /* Make buttons fill available space */
+}
+
+/* Increase modal action button sizes */
+.modal-actions .btn {
+  padding: var(--space-16) var(--space-32); /* Increased padding */
+  font-size: var(--font-size-lg); /* Increased font size */
+  min-height: 52px; /* Larger touch target for modal */
+  margin: var(--space-8); /* Add margin between buttons */
+}
+
+/* Increase cart control button sizes */
+.ci-actions button,
+.cart-actions button {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: var(--space-12) var(--space-16); /* Increased from 4px 8px */
+  border-radius: var(--radius-base);
+  margin-left: var(--space-6);
+  font-size: var(--font-size-md); /* Increased font size */
+  min-height: 44px; /* Ensure good touch target */
+  min-width: 44px; /* Ensure square buttons are large enough */
+}
+
+/* Increase hero button sizes */
+.hero-buttons .btn {
+  padding: var(--space-20) var(--space-32); /* Extra large for hero buttons */
+  font-size: var(--font-size-xl); /* Larger font for hero */
+  min-height: 56px; /* Larger touch target */
+  min-width: 160px; /* Ensure buttons are wide enough */
+}
+
+/* Mobile responsiveness - keep buttons large on mobile */
+@media (max-width: 768px) {
+  .btn {
+    padding: var(--space-14) var(--space-20); /* Slightly smaller but still large */
+    font-size: var(--font-size-md);
+    min-height: 44px;
+  }
+  
+  .btn--sm {
+    padding: var(--space-10) var(--space-16);
+    font-size: var(--font-size-base);
+    min-height: 40px;
+  }
+  
+  .filter-btn {
+    padding: var(--space-10) var(--space-20);
+    font-size: var(--font-size-md) !important;
+    margin: var(--space-6) var(--space-4);
+    min-height: 44px;
+  }
+  
+  .nav-btn {
+    padding: var(--space-12) var(--space-16);
+    font-size: var(--font-size-md) !important;
+    min-height: 44px;
+  }
+  
+  .hero-buttons .btn {
+    padding: var(--space-16) var(--space-24);
+    font-size: var(--font-size-lg);
+    min-height: 48px;
+    width: 100%; /* Full width on mobile */
+    margin-bottom: var(--space-8);
+  }
+  
+  .product-card .actions {
+    flex-direction: column; /* Stack buttons vertically on mobile */
+    gap: var(--space-8);
+  }
+  
+  .product-card .actions .btn {
+    width: 100%; /* Full width buttons on mobile */
+    padding: var(--space-12) var(--space-16);
+    font-size: var(--font-size-base);
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-actions {
+    flex-direction: column; /* Stack modal buttons vertically on small screens */
+    gap: var(--space-12);
+  }
+  
+  .modal-actions .btn {
+    width: 100%; /* Full width modal buttons */
+    padding: var(--space-14) var(--space-20);
+    font-size: var(--font-size-md);
+  }
+}
+
+/* Ensure proper spacing between action buttons */
+.actions {
+  display: flex;
+  gap: var(--space-8); /* Increased gap between buttons */
+  margin-top: var(--space-12);
+}
+
+.modal-actions {
+  display: flex;
+  gap: var(--space-12); /* Increased gap between modal buttons */
+  margin-top: var(--space-16);
+  justify-content: center;
+}
+
+/* Improve button hover states for larger buttons */
+.btn:hover {
+  transform: translateY(-2px); /* Slightly more pronounced hover effect */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+}
+
+.filter-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Update header content layout */
+.header-content {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  gap: var(--space-12); /* Reduced gap for tighter spacing */
+  padding: var(--space-16) 0;
+}
+
+/* Ensure logo is centered and prominent */
+.logo {
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.logo h1 {
+  font-size: 2.5rem !important;
+  margin-bottom: 0.25rem;
+  color: var(--color-text-dark);
+}
+
+.logo .tagline {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--color-text-dark);
+  margin: 0;
+}
+
+/* Position hamburger menu below the logo */
+.menu-toggle {
+  display: none; /* Hidden by default on desktop */
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: var(--color-text-dark);
+  cursor: pointer;
+  padding: var(--space-8);
+  border-radius: var(--radius-base);
+  transition: all var(--duration-fast) var(--ease-standard);
+}
+
+.menu-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+/* Desktop navigation - horizontal layout */
+@media (min-width: 769px) {
+  .header-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  
+  .nav {
+    display: flex !important;
+    gap: var(--space-8);
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+  
+  .menu-toggle {
+    display: none !important;
+  }
+}
+
+/* Mobile layout - show hamburger menu */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-12);
+  }
+  
+  .logo {
+    text-align: center;
+    order: 1; /* Logo first */
+  }
+  
+  .menu-toggle {
+    display: inline-block !important;
+    order: 2; /* Hamburger menu second */
+  }
+  
+  .nav {
+    order: 3; /* Navigation third */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--color-background-dark);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 12px 12px;
+    padding: var(--space-16);
+    display: none;
+    max-height: 75vh;
+    overflow: auto;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .nav.nav--open {
+    display: block;
+  }
+  
+  .nav-btn {
+    display: block;
+    width: 100%;
+    margin: var(--space-4) 0;
+    text-align: center;
+  }
+}
+
+/* Ensure proper stacking order */
+.header {
+  position: relative;
+}
+
+/* Animation for menu toggle */
+.menu-toggle {
+  transition: transform var(--duration-fast) var(--ease-standard);
+}
+
+.menu-toggle.active {
+  transform: rotate(90deg);
+}
+
+/* Improve mobile navigation appearance */
+@media (max-width: 480px) {
+  .logo h1 {
+    font-size: 2rem !important;
+  }
+  
+  .logo .tagline {
+    font-size: 1rem;
+  }
+  
+  .menu-toggle {
+    font-size: 1.8rem;
+  }
+  
+  .header-content {
+    gap: var(--space-8);
+  }
+}
