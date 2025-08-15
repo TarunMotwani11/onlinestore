@@ -1,3 +1,6 @@
+Here’s the complete README text you can copy and paste into a file named **`README.md`** in your project folder:
+
+````
 # Hoof & Horns Cattle Supplies Website  
 
 ## Project Overview  
@@ -21,3 +24,30 @@ It is designed to maintain a **clean, minimalistic theme** while delivering a **
 1. Clone the repository:  
    ```bash
    git clone https://github.com/YourUsername/hoof-and-horns.git
+````
+
+2. Navigate into the project folder and open `index.html` in any web browser.
+
+**Optional:** Deploy on Netlify or Vercel for live hosting.
+
+## Deployment
+
+* Compatible with **GitHub Pages**, **Netlify**, and **Vercel**.
+* Custom domain can be added anytime.
+* Continuous deployment possible via GitHub integration.
+
+## Usage
+
+* Customers browse the catalog by category or “All Products”.
+* Add items to cart or use “Buy Now” to place WhatsApp orders instantly.
+* Orders are received directly by the store owner for confirmation and delivery.
+
+## Contributions
+
+We welcome improvements, optimizations, and new features via pull requests.
+
+## Contact
+
+**Developer:** Tarun Motwani
+**Email:** [tarun11304@gmail.com](mailto:tarun11304@gmail.com)
+**GitHub:** [TarunMotwani11](https://github.com/TarunMotwani11)
