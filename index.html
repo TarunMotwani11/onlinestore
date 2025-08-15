@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoof & Horns Cattle Supplies - Trusted Cattle Pharmacy, Now Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container">
+        <div class="header-content">
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <div class="logo">
+                <h1>🐄 Hoof & Horns</h1>
+                <p class="tagline">Trusted Cattle Pharmacy, Now Online</p>
+            </div>
+            <nav class="nav">
+                <button class="nav-btn" data-section="cart">Cart (<span id="cart-count">0</span>)</button>
+                <button class="nav-btn active" data-section="home">Home</button>
+                <button class="nav-btn" data-section="about">About</button>
+                <button class="nav-btn" data-section="products">Products</button>
+                <button class="nav-btn" data-section="contact">Contact</button>
+                <button class="nav-btn" data-section="delivery">Delivery Info</button>
+                <button class="nav-btn" data-section="faq">FAQ</button>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main class="main">
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-content">
+                    <h2>Your Cattle's Health, Our Priority</h2>
+                    <p>Quality cattle medicines, food, and accessories delivered to your doorstep. Order through WhatsApp for quick and convenient service.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn--primary" data-section="products">Shop Now</button>
+                        <button class="btn btn--primary" onclick="window.open('https://wa.me/917774994499?text=Hello%21%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services.', '_blank')">WhatsApp Us</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="services-overview">
+                <h3>Why Choose Us?</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🏥</div>
+                        <h4>Genuine Medicines</h4>
+                        <p>Authentic cattle medicines from trusted brands</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🚚</div>
+                        <h4>Fast Delivery</h4>
+                        <p>Quick delivery within your area</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💬</div>
+                        <h4>WhatsApp Ordering</h4>
+                        <p>Easy ordering through WhatsApp</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⭐</div>
+                        <h4>Trusted Service</h4>
+                        <p>Years of experience serving cattle owners</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Hoof & Horns Cattle Supplies</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Years of Trust & Experience</h3>
+                    <p>For over a decade, Hoof & Horns has been the trusted choice for cattle owners in our community. We understand that cattle are vital, and their health and productivity are our top priorities.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>To provide genuine, high-quality cattle medicines, food, and accessories at affordable prices, with the convenience of modern online ordering through WhatsApp.</p>
+                    
+                    <h3>Why Customers Trust Us</h3>
+                    <ul>
+                        <li>Genuine products from authorized dealers</li>
+                        <li>Expert advice on cattle care</li>
+                        <li>Convenient WhatsApp ordering system</li>
+                        <li>Fast and reliable delivery service</li>
+                        <li>Competitive pricing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="Livertonics">Livertonics</button>
+                <button class="filter-btn" data-category="Calcium supplements">Calcium supplements</button>
+                <button class="filter-btn" data-category="Multivitamins">Multivitamins</button>
+            </div>
+            
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Cart Section -->
+    <section id="cart" class="section">
+        <div class="container">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <div class="cart-summary">
+                <div class="cart-total">Total: ₹<span id="cart-total">0</span></div>
+                <button id="cart-checkout" class="btn btn--primary btn--lg">Checkout via WhatsApp</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Order Now via WhatsApp</h3>
+                        <button class="btn btn--primary btn--lg" onclick="window.open('https://wa.me/917774994499?text=Hello%21%20I%20would%20like%20to%20place%20an%20order.%20Please%20help%20me%20with%20product%20information.', '_blank')">
+                            💬 WhatsApp Order Now
+                        </button>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>📞 Phone:</strong>
+                            <a href="tel:+917774994499">+91 77749 94499</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>📍 Address:</strong>
+                            <p>Block no a-199 room no 397 near Ratan park Dev Samaj road Netaji Ulhasnagar-4</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>⏰ Business Hours:</strong>
+                            <p>Mon-Sat: 9 AM - 8 PM<br>Sun: 10 AM - 6 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="map-placeholder">
+                        <div class="map-box">
+                            <h4>📍 Visit Our Store</h4>
+                            <p>Located at Block no a-199 room no 397 near Ratan park Dev Samaj road Netaji Ulhasnagar-4</p>
+                            <p>Easy parking available</p>
+                            <button class="btn btn--outline btn--sm" onclick="window.open('https://maps.google.com/?q=Block+no+a-199+room+no+397+near+Ratan+park+Dev+Samaj+road+Netaji+Ulhasnagar-4', '_blank')">
+                                🗺️ Open in Google Maps
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery Info Section -->
+    <section id="delivery" class="section">
+        <div class="container">
+            <h2>Delivery Information</h2>
+            <div class="delivery-content">
+                <div class="delivery-charges">
+                    <h3>Delivery Charges</h3>
+                    <div class="charges-table">
+                        <div class="table-header">
+                            <div>Distance</div>
+                            <div>Delivery Charge</div>
+                        </div>
+                        <div class="table-row">
+                            <div>Within 2km</div>
+                            <div>₹30</div>
+                        </div>
+                        <div class="table-row">
+                            <div>2–5km</div>
+                            <div>₹60</div>
+                        </div>
+                        <div class="table-row">
+                            <div>5–10km</div>
+                            <div>₹100</div>
+                        </div>
+                        <div class="table-row">
+                            <div>Over 10km</div>
+                            <div>Contact for quote</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="delivery-policy">
+                    <h3>Delivery Policy</h3>
+                    <ul>
+                        <li>Free delivery on orders above ₹1000 (within 5km)</li>
+                        <li>Cash on delivery available</li>
+                        <li>Digital payment accepted (UPI)</li>
+                    </ul>
+                    
+                    <h3>Payment Methods</h3>
+                    <div class="payment-methods">
+                        <span class="payment-tag">Cash on Delivery</span>
+                        <span class="payment-tag">UPI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-content">
+                <div class="faq-section">
+                    <h3>How to Order</h3>
+                    <ol>
+                        <li>Browse our products and click "Order via WhatsApp"</li>
+                        <li>WhatsApp will open with pre-filled message</li>
+                        <li>Add your delivery address to the message</li>
+                        <li>Send the message to us</li>
+                        <li>We'll confirm delivery charge and total amount</li>
+                        <li>Your order will be delivered as per schedule</li>
+                    </ol>
+                </div>
+                
+                <div class="faq-section">
+                    <h3>Delivery Information</h3>
+                    <p><strong>Delivery Time:</strong> Same day for orders before 5 PM, next day for later orders</p>
+                    <p><strong>Delivery Areas:</strong> We deliver within 10km radius from our shop</p>
+                    <p><strong>Emergency Orders:</strong> Contact us directly for urgent medicine requirements</p>
+                </div>
+            </div>
+            
+            <div class="testimonials">
+                <h3>What Our Customers Say</h3>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Best cattle supply shop in the area! Quick delivery and genuine products."</p>
+                        <strong>- Rajesh Kumar</strong>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Ordering through WhatsApp is so convenient. Great service!"</p>
+                        <strong>- Priya Sharma</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>🐄 Hoof & Horns Cattle Supplies</h4>
+                <p>Your trusted cattle care partner</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📞 +91 77749 94499</p>
+                <p>📍 Block no a-199 room no 397 near Ratan park Dev Samaj road Netaji Ulhasnagar-4</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Order</h4>
+                <button class="btn btn--outline btn--sm" onclick="window.open('https://wa.me/917774994499?text=Hello%21%20I%20would%20like%20to%20place%20an%20order.', '_blank')">WhatsApp Us</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Hoof & Horns Cattle Supplies. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
