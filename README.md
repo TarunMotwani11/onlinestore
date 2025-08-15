@@ -23,7 +23,7 @@ It is designed to maintain a **clean, minimalistic theme** while delivering a **
 ## Installation Guide  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/YourUsername/hoof-and-horns.git
+   git clone https://github.com/TarunMotwani11/onlinestore.git
 ````
 
 2. Navigate into the project folder and open `index.html` in any web browser.
