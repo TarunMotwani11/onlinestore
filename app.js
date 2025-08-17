@@ -458,7 +458,7 @@ function ensureModal() {
     modal.innerHTML = `
       <div class="modal-backdrop" data-close-modal></div>
       <div class="modal-dialog product-modal-dialog" style="max-height: 90vh; overflow-y: auto; position: relative;">
-        <button class="modal-close" data-close-modal aria-label="Close" style="position: absolute; top: 10px; right: 10px; z-index: 2; font-size: 2rem; background: #fff; border: none; cursor: pointer;">×</button>
+  <button class="modal-close" data-close-modal aria-label="Close" style="position: absolute; top: 12px; right: 12px; z-index: 2; width: 32px; height: 32px; border-radius: 50%; background: #fff; border: 1px solid #ccc; box-shadow: 0 2px 8px rgba(0,0,0,0.12); font-size: 1.2rem; color: #333; display: flex; align-items: center; justify-content: center; cursor: pointer;">×</button>
         <div id="modal-body"></div>
       </div>
     `;
