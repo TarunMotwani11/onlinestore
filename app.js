@@ -7,7 +7,7 @@ const PHONE_NUMBER = "917774994499"; // WhatsApp number
 const products = [
   { id:1,  name:"LIV 52 30 L",                 category:"Livertonics",        price:2600, mrp:3250, image: "images/liv52_30l.jpg", description: "Comprehensive liver tonic for optimal liver function" },
   { id:2,  name:"LIV 52 5 L",                  category:"Livertonics",        price:840,  mrp:1050, image: "images/liv52_1l.jpg", description: "Effective liver protection and regeneration" },
-  { id:3,  name:"LIV 52 1 L",                  category:"Livertonics",        price:390,  mrp:480,  image: "images/liv52_1l.jpg", description: "Premium liver support supplement" },
+  { id:3,  name:"LIV 52 1 L",                  category:"Livertonics",        price:264,  mrp:330,  image: "images/liv52_1l.jpg", description: "Premium liver support supplement" },
 
   { id:4,  name:"E-Booster 1 L",               category:"Calcium supplements", price:640,  mrp:798,  image: "images/ebooster_1l.jpg", description: "Energy boosting calcium supplement" },
   { id:5,  name:"Enerdyna Advance 1 L",        category:"Calcium supplements", price:688,  mrp:860,  image:"https://cdn.netmeds.tech/v2/plain-cake-860195/netmed/wrkr/products/pictures/item/free/original/msx7hY_yWH-vet_mankind_enerdyna_advance_liquid_1000_ml_568400_0_2.jpg", description: "Advanced energy and calcium formula" },
@@ -15,11 +15,11 @@ const products = [
   { id:7,  name:"Ostovet Forte 5 L",           category:"Calcium supplements", price:750,  mrp:930,  image: "images/ostovet_forte_5l.jpg", description: "Enhanced calcium formula with vitamins" },
   { id:8,  name:"Chelated Ostovet Forte 5 L",  category:"Calcium supplements", price:880,  mrp:1100, image: "images/chelated_ostovet_forte_5l.jpg", description: "Superior chelated calcium for better absorption" },
 
-  { id:9,  name:"Vimeral Forte 500ml",         category:"Multivitamins", price:920,  mrp:1150, image:"images/vimeral_500ml.png", description: "Complete multivitamin and mineral supplement" },
-  { id:10, name:"Vimeral Forte 300ml",         category:"Multivitamins", price:430,  mrp:530, image:"images/vimeral_300ml.png", description: "Essential vitamins for optimal health" },
-  { id:11, name:"Multistar Liquid 1 L",        category:"Multivitamins", price:580,  mrp:720,  image:"images/multistar_1l.jpg", description: "Premium multivitamin liquid formula" },
-  { id:12, name:"Multistar Liquid 500 ml",     category:"Multivitamins", price:2650, mrp:3200, image:"images/multistar_500ml.jpg", description: "Concentrated multivitamin solution" },
-  { id:13, name:"Multistar H Liquid 1 L",      category:"Multivitamins", price:880,  mrp:1070, image:"images/multistar_h_1l.jpg", description: "High-potency multivitamin formula" },
+  { id:9,  name:"Vimeral Forte 500ml",         category:"Multivitamins", price:650,  mrp:800, image:"images/vimeral_500ml.png", description: "Complete multivitamin and mineral supplement" },
+  { id:10, name:"Vimeral Forte 300ml",         category:"Multivitamins", price:430,  mrp:535, image:"images/vimeral_300ml.png", description: "Essential vitamins for optimal health" },
+  { id:11, name:"Multistar Liquid 1 L",        category:"Multivitamins", price:1080,  mrp:1350,  image:"images/multistar_1l.jpg", description: "Premium multivitamin liquid formula" },
+  { id:12, name:"Multistar Liquid 500 ml",     category:"Multivitamins", price:600, mrp:750, image:"images/multistar_500ml.jpg", description: "Concentrated multivitamin solution" },
+  { id:13, name:"Multistar H Liquid 1 L",      category:"Multivitamins", price:1280,  mrp:1590, image:"images/multistar_h_1l.jpg", description: "High-potency multivitamin formula" },
   { id:14, name:"Multistar H Liquid 500 ml",   category:"Multivitamins", price:710,  mrp:880,  image:"images/multistar_h_500ml.jpg", description: "Concentrated high-potency vitamins" },
 ];
 
