@@ -457,8 +457,8 @@ function ensureModal() {
     modal.id = "modal";
     modal.innerHTML = `
       <div class="modal-backdrop" data-close-modal></div>
-      <div class="modal-dialog product-modal-dialog">
-        <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <div class="modal-dialog product-modal-dialog" style="max-height: 90vh; overflow-y: auto; position: relative;">
+        <button class="modal-close" data-close-modal aria-label="Close" style="position: absolute; top: 10px; right: 10px; z-index: 2; font-size: 2rem; background: #fff; border: none; cursor: pointer;">×</button>
         <div id="modal-body"></div>
       </div>
     `;
